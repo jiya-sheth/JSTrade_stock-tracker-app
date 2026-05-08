@@ -67,6 +67,10 @@ declare global {
         email: string;
         name: string;
         intro: string;
+        country?: string
+        investmentGoals?: string
+        riskTolerance?: string
+        preferredIndustry?: string
     };
 
     type User = {
