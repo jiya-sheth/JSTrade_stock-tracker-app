@@ -1,6 +1,6 @@
 "use client";
 import {Button} from "@/components/ui/button";
-import TradingViewWidget from "@/components/ui/TradingViewWidget";
+import TradingViewWidget from "@/components/TradingViewWidget";
 import {
     HEATMAP_WIDGET_CONFIG,
     MARKET_DATA_WIDGET_CONFIG,
