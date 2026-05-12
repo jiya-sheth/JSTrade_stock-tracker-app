@@ -15,8 +15,6 @@ interface TradingViewWidgetProps{
 const TradingViewWidget = ({ title, scriptUrl, config, height = 600, className}: TradingViewWidgetProps) =>  {
     const containerRef = useTradingViewWidget(scriptUrl, config, height);
 
-
-
     return (
         <div className="w-full">
             {title && <h3 className="font-semibold text-2xl text-gray-100 mb-5">{title}</h3>}
